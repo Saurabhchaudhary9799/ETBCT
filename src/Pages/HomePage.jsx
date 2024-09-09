@@ -12,7 +12,7 @@ const HomePage = () => {
     <>
      <Carousel/>
      <WelcomeSection/>
-     <CollabSection/>
+     {/* <CollabSection/> */}
      <Timeline/>
      <KeyPersons/>
      <Contact/>

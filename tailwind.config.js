@@ -14,7 +14,10 @@ export default {
           '0%': { height : '0%' },
           '100%': { height : '100%' },
         }
-      }
+      },
+      fontFamily: {
+        'custom': ['Moderustic', 'sans-serif'],
+      },
 
     },
   },

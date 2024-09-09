@@ -7,18 +7,18 @@ const Contact = () => {
     <div className="contact-section bg-sky-800 py-10 flex flex-col justify-center items-center  ">
         <div className='text-4xl text-center mb-10 text-white'><h1>Contact Us</h1></div>
         <div className='flex md:flex-row md:gap-x-5 gap-y-5 flex-col justify-center items-center'>
-            <div className=' w-full md:w-3/6  px-16 flex flex-col gap-y-3'>
+            <div className=' w-full md:w-3/6  px-16 flex flex-col gap-y-3 text-white'>
               <div>
-                <h1 className='text-3xl text-white font-bold'>Get in touch with us</h1>
-                <h3 className='text-2xl text-[#777] font-regular'>If case of any query, Feel free to contact us.</h3>
+                <h1 className='text-3xl  font-bold'>Get in touch with us</h1>
+                <h3 className='text-2xl  font-regular'>If case of any query, Feel free to contact us.</h3>
               </div>
-              <div className='flex justify-start items-center gap-x-3 text-blue-900'>
+              <div className='flex justify-start items-center gap-x-3 text-white'>
                  <span className='text-orange-500 text-xl'><FaPhone/></span> +91 9419320051, +91 9419202016
               </div>
-              <div className='flex justify-start items-center gap-x-3 text-blue-900'>
-                <span className='text-orange-500 text-xl'><IoIosMail/></span> etbct2022@smvdu.ac.in
+              <div className='flex justify-start items-center gap-x-3 text-white'>
+                <span className='text-orange-500 text-xl'><IoIosMail/></span> etbct2025@smvdu.ac.in
               </div> 
-              <div className='flex justify-start items-center gap-x-3 text-blue-900'>
+              <div className='flex justify-start items-center gap-x-3 text-white'>
                 <span className='text-orange-500 text-xl'><FaLocationDot/></span> School of Biotechnology, SMVDU, Katra, India - 182320.
               </div>
             </div>

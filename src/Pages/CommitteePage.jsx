@@ -2,19 +2,18 @@
 import React from 'react'
 import Carousel from '../Components/AboutComponents/Carousel'
 import ChiefGuest from '../Components/CommiComponents/ChiefGuest'
-import Vc from '../Components/CommiComponents/Vc'
+// import Vc from '../Components/CommiComponents/Vc'
+import ChiefPatron from '../Components/CommiComponents/ChiefPatron'
+import ConferenceMember from '../Components/CommiComponents/ConferenceMember'
 
 const CommitteePage = () => {
   return (
    <>
     <Carousel/>
-    <section className='py-5'>
-      <div>
-         <h1 className='text-2xl md:text-4xl text-orange-500 font-bold underline text-center'>Committee</h1>
-      </div>
-     
-        <ChiefGuest/>
-        <Vc/>
+    <section className='flex flex-col gap-y-10 py-5'>
+      <ChiefPatron/>
+      <ChiefGuest/>
+      <ConferenceMember/>
     </section>
    </>
   )

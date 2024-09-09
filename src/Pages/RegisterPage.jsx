@@ -14,7 +14,7 @@ const RegisterPage = () => {
             <p className="text-xl ">
               Participants are requested to register for the conference by
               filling the registration form available on website along with
-              details of payment of requisite fee to etbct22@smvdu.ac.in.
+              details of payment of requisite fee to etbct2025@smvdu.ac.in.
             </p>
             <p className="text-xl ">
               *All the registered delegates shall be entitled to Conference kit,
